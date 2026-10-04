@@ -1,0 +1,6 @@
+{
+  "name": "AI English Podcast",
+  "description": "Learn English naturally with interactive podcasts, synced transcripts, Turkish hints, speaking practice, and AI tutoring.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

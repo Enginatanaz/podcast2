@@ -1,0 +1,166 @@
+{
+  "users": [
+    {
+      "id": "user-a",
+      "username": "alex",
+      "displayName": "Alex (User A)",
+      "email": "alex@example.com",
+      "level": "A1",
+      "createdAt": 1790854210477,
+      "lastLoginAt": 1791113410477
+    },
+    {
+      "id": "user-b",
+      "username": "sarah",
+      "displayName": "Sarah (User B - New)",
+      "email": "sarah@example.com",
+      "level": "A1",
+      "createdAt": 1791113410477,
+      "lastLoginAt": 1791113410477
+    },
+    {
+      "id": "user-1791113424477-idgc",
+      "username": "testlearner",
+      "displayName": "Test Learner",
+      "email": "testlearner@example.com",
+      "level": "B1",
+      "createdAt": 1791113424477,
+      "lastLoginAt": 1791113424477
+    }
+  ],
+  "user_progress": {
+    "user-a": {
+      "userId": "user-a",
+      "level": "A1",
+      "onboardingCompleted": true,
+      "streak": 1,
+      "lastActiveDate": "2026-10-04",
+      "dailyGoalCompleted": true,
+      "totalListeningSeconds": 240,
+      "speakingAttempts": 2,
+      "overallProgress": 31
+    },
+    "user-b": {
+      "userId": "user-b",
+      "level": "A1",
+      "onboardingCompleted": false,
+      "streak": 0,
+      "lastActiveDate": "2026-10-04",
+      "dailyGoalCompleted": false,
+      "totalListeningSeconds": 0,
+      "speakingAttempts": 0,
+      "overallProgress": 0
+    },
+    "user-1791113424477-idgc": {
+      "userId": "user-1791113424477-idgc",
+      "level": "B1",
+      "onboardingCompleted": false,
+      "streak": 0,
+      "lastActiveDate": "2026-10-04",
+      "dailyGoalCompleted": false,
+      "totalListeningSeconds": 0,
+      "speakingAttempts": 0,
+      "overallProgress": 0
+    }
+  },
+  "user_vocabulary": [
+    {
+      "id": "w-a1",
+      "userId": "user-a",
+      "word": "coffee",
+      "meaning": "kahve",
+      "example": "I would like a coffee, please.",
+      "podcastId": "at-the-cafe",
+      "podcastTitle": "At the Café",
+      "addedAt": 1791027010477,
+      "masteryStage": "learning",
+      "correctCount": 1,
+      "incorrectCount": 0
+    },
+    {
+      "id": "w-a2",
+      "userId": "user-a",
+      "word": "please",
+      "meaning": "lütfen",
+      "example": "Water, please.",
+      "podcastId": "at-the-cafe",
+      "podcastTitle": "At the Café",
+      "addedAt": 1791027010477,
+      "masteryStage": "new",
+      "correctCount": 0,
+      "incorrectCount": 0
+    }
+  ],
+  "user_podcast_history": {
+    "user-a_at-the-cafe": {
+      "userId": "user-a",
+      "podcastId": "at-the-cafe",
+      "podcastTitle": "At the Café",
+      "progressPercent": 100,
+      "sentenceIndex": 9,
+      "totalSentences": 10,
+      "completed": true,
+      "completedAt": 1791027010477,
+      "lastListenedAt": 1791027010477,
+      "listeningScore": 90,
+      "vocabularyScore": 85,
+      "quizScore": 100,
+      "speakingScore": 80,
+      "overallScore": 90,
+      "status": "mastered",
+      "listeningTimeSeconds": 240
+    }
+  },
+  "user_quiz_history": [
+    {
+      "id": "q-a1",
+      "userId": "user-a",
+      "podcastId": "at-the-cafe",
+      "score": 100,
+      "correctCount": 5,
+      "totalQuestions": 5,
+      "completedAt": 1791027010477
+    }
+  ],
+  "user_saved_sentences": [],
+  "user_saved_podcasts": {
+    "user-a": [
+      "at-the-cafe"
+    ],
+    "user-b": []
+  },
+  "user_notes": {},
+  "user_speaking_history": [],
+  "user_ai_chat_history": {},
+  "user_oxford_progress": {
+    "user-a": {
+      "coffee": {
+        "word": "coffee",
+        "status": "mastered",
+        "seenCount": 3,
+        "masteredCount": 1,
+        "lastSeenAt": 1791027010477,
+        "podcastIds": [
+          "at-the-cafe"
+        ]
+      },
+      "morning": {
+        "word": "morning",
+        "status": "learning",
+        "seenCount": 1,
+        "masteredCount": 0,
+        "lastSeenAt": 1791027010477,
+        "podcastIds": [
+          "at-the-cafe"
+        ]
+      }
+    },
+    "user-b": {}
+  },
+  "user_curriculum_progress": {
+    "user-a": [
+      "less-a1-2-1"
+    ],
+    "user-b": []
+  }
+}
